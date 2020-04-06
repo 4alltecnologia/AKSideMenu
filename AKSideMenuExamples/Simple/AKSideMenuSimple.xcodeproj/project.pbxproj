@@ -7,11 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3205BCA72B3CCC645ED699AC /* Pods_AKSideMenuSimple.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 071D78E47BB4333E6857235F /* Pods_AKSideMenuSimple.framework */; };
+		0AB62BB50ADDC6B808740CA7 /* Pods_AKSideMenuSimple.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0F3D49157CFFC1D42C56DEB /* Pods_AKSideMenuSimple.framework */; };
 		DD185F6D1D01B26700B38366 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD185F651D01B26700B38366 /* AppDelegate.swift */; };
 		DD185F6E1D01B26700B38366 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD185F661D01B26700B38366 /* Assets.xcassets */; };
 		DD185F6F1D01B26700B38366 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD185F671D01B26700B38366 /* LaunchScreen.storyboard */; };
-		DD185F721D01B26700B38366 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD185F6C1D01B26700B38366 /* ViewController.swift */; };
 		DDA259B41D05EB410085AE9F /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA259B31D05EB410085AE9F /* FirstViewController.swift */; };
 		DDC9B29D1D06FE79000EF1FE /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC9B29C1D06FE79000EF1FE /* SecondViewController.swift */; };
 		DDC9B29F1D070024000EF1FE /* RightMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC9B29E1D070024000EF1FE /* RightMenuViewController.swift */; };
@@ -19,19 +18,18 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		071D78E47BB4333E6857235F /* Pods_AKSideMenuSimple.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AKSideMenuSimple.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4A21FB7B695E65E9F3F292FA /* Pods-AKSideMenuSimple.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AKSideMenuSimple.release.xcconfig"; path = "Pods/Target Support Files/Pods-AKSideMenuSimple/Pods-AKSideMenuSimple.release.xcconfig"; sourceTree = "<group>"; };
-		7FC75173B769051E318F46CE /* Pods-AKSideMenuSimple.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AKSideMenuSimple.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AKSideMenuSimple/Pods-AKSideMenuSimple.debug.xcconfig"; sourceTree = "<group>"; };
+		04F5F8ED951A76443A0D207E /* Pods-AKSideMenuSimple.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AKSideMenuSimple.debug.xcconfig"; path = "Target Support Files/Pods-AKSideMenuSimple/Pods-AKSideMenuSimple.debug.xcconfig"; sourceTree = "<group>"; };
+		A0F3D49157CFFC1D42C56DEB /* Pods_AKSideMenuSimple.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AKSideMenuSimple.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD185F651D01B26700B38366 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DD185F661D01B26700B38366 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DD185F681D01B26700B38366 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DD185F6B1D01B26700B38366 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DD185F6C1D01B26700B38366 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DD8F36A61D01AF32000DA9CC /* AKSideMenuSimple.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AKSideMenuSimple.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDA259B31D05EB410085AE9F /* FirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		DDC9B29C1D06FE79000EF1FE /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		DDC9B29E1D070024000EF1FE /* RightMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RightMenuViewController.swift; sourceTree = "<group>"; };
 		DDC9B2A01D070766000EF1FE /* LeftMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeftMenuViewController.swift; sourceTree = "<group>"; };
+		E692D65950B61F3A101AB257 /* Pods-AKSideMenuSimple.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AKSideMenuSimple.release.xcconfig"; path = "Target Support Files/Pods-AKSideMenuSimple/Pods-AKSideMenuSimple.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,36 +37,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3205BCA72B3CCC645ED699AC /* Pods_AKSideMenuSimple.framework in Frameworks */,
+				0AB62BB50ADDC6B808740CA7 /* Pods_AKSideMenuSimple.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		A0D22396D4975B3D9E2A5E8E /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				7FC75173B769051E318F46CE /* Pods-AKSideMenuSimple.debug.xcconfig */,
-				4A21FB7B695E65E9F3F292FA /* Pods-AKSideMenuSimple.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		BF548A5FCBE2F6CB65C6D969 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				071D78E47BB4333E6857235F /* Pods_AKSideMenuSimple.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		DD185F641D01B26700B38366 /* AKSideMenuSimple */ = {
 			isa = PBXGroup;
 			children = (
 				DDA259B21D05EB340085AE9F /* Controllers */,
 				DD185F651D01B26700B38366 /* AppDelegate.swift */,
-				DD185F6C1D01B26700B38366 /* ViewController.swift */,
 				DD185F671D01B26700B38366 /* LaunchScreen.storyboard */,
 				DD185F6B1D01B26700B38366 /* Info.plist */,
 				DD185F661D01B26700B38366 /* Assets.xcassets */,
@@ -81,8 +61,8 @@
 			children = (
 				DD185F641D01B26700B38366 /* AKSideMenuSimple */,
 				DD8F36A71D01AF32000DA9CC /* Products */,
-				A0D22396D4975B3D9E2A5E8E /* Pods */,
-				BF548A5FCBE2F6CB65C6D969 /* Frameworks */,
+				E93FC46BF44CE3D3FFB57BD7 /* Pods */,
+				E08F638BB345ABCABEA76BCF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +85,23 @@
 			path = Controllers;
 			sourceTree = "<group>";
 		};
+		E08F638BB345ABCABEA76BCF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A0F3D49157CFFC1D42C56DEB /* Pods_AKSideMenuSimple.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E93FC46BF44CE3D3FFB57BD7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				04F5F8ED951A76443A0D207E /* Pods-AKSideMenuSimple.debug.xcconfig */,
+				E692D65950B61F3A101AB257 /* Pods-AKSideMenuSimple.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -112,12 +109,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DD8F36B81D01AF33000DA9CC /* Build configuration list for PBXNativeTarget "AKSideMenuSimple" */;
 			buildPhases = (
-				2B27E90A44319BB5537C49E5 /* [CP] Check Pods Manifest.lock */,
+				898C2216990C4B8B651F62E4 /* [CP] Check Pods Manifest.lock */,
 				DD8F36A21D01AF32000DA9CC /* Sources */,
 				DD8F36A31D01AF32000DA9CC /* Frameworks */,
 				DD8F36A41D01AF32000DA9CC /* Resources */,
-				3E27A5B111D16B7C38923D4D /* [CP] Embed Pods Frameworks */,
-				7170E4B528AF977B5912EA26 /* [CP] Copy Pods Resources */,
+				5763F2A8A969EF8C05B29935 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -135,18 +131,18 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0900;
+				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = "AnyKey Entertainment";
 				TargetAttributes = {
 					DD8F36A51D01AF32000DA9CC = {
 						CreatedOnToolsVersion = 7.3.1;
-						LastSwiftMigration = 0900;
+						LastSwiftMigration = 1020;
 					};
 				};
 			};
 			buildConfigurationList = DD8F36A11D01AF32000DA9CC /* Build configuration list for PBXProject "AKSideMenuSimple" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
@@ -175,31 +171,13 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		2B27E90A44319BB5537C49E5 /* [CP] Check Pods Manifest.lock */ = {
+		5763F2A8A969EF8C05B29935 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-AKSideMenuSimple-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		3E27A5B111D16B7C38923D4D /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-AKSideMenuSimple/Pods-AKSideMenuSimple-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-AKSideMenuSimple/Pods-AKSideMenuSimple-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/AKSideMenu/AKSideMenu.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -208,22 +186,29 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AKSideMenuSimple/Pods-AKSideMenuSimple-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AKSideMenuSimple/Pods-AKSideMenuSimple-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		7170E4B528AF977B5912EA26 /* [CP] Copy Pods Resources */ = {
+		898C2216990C4B8B651F62E4 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputPaths = (
+			inputFileListPaths = (
 			);
-			name = "[CP] Copy Pods Resources";
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AKSideMenuSimple-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AKSideMenuSimple/Pods-AKSideMenuSimple-resources.sh\"\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -236,7 +221,6 @@
 				DDC9B29D1D06FE79000EF1FE /* SecondViewController.swift in Sources */,
 				DDA259B41D05EB410085AE9F /* FirstViewController.swift in Sources */,
 				DDC9B2A11D070766000EF1FE /* LeftMenuViewController.swift in Sources */,
-				DD185F721D01B26700B38366 /* ViewController.swift in Sources */,
 				DD185F6D1D01B26700B38366 /* AppDelegate.swift in Sources */,
 				DDC9B29F1D070024000EF1FE /* RightMenuViewController.swift in Sources */,
 			);
@@ -260,6 +244,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -269,12 +254,14 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -314,6 +301,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -323,12 +311,14 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -359,21 +349,20 @@
 		};
 		DD8F36B91D01AF33000DA9CC /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7FC75173B769051E318F46CE /* Pods-AKSideMenuSimple.debug.xcconfig */;
+			baseConfigurationReference = 04F5F8ED951A76443A0D207E /* Pods-AKSideMenuSimple.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "$(SRCROOT)/AKSideMenuSimple/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.anykey.AKSideMenu;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
 		DD8F36BA1D01AF33000DA9CC /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4A21FB7B695E65E9F3F292FA /* Pods-AKSideMenuSimple.release.xcconfig */;
+			baseConfigurationReference = E692D65950B61F3A101AB257 /* Pods-AKSideMenuSimple.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "$(SRCROOT)/AKSideMenuSimple/Info.plist";
@@ -381,8 +370,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.anykey.AKSideMenu;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};

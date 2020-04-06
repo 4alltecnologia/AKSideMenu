@@ -613,7 +613,7 @@ import UIKit
             } else {
                 delta = point.x / self.view.frame.size.width
             }
-            delta = min(fabs(delta), 1.6)
+            delta = min(abs(delta), 1.6)
 
             var contentViewScale: CGFloat = self.scaleContentView ? 1 - ((1 - self.contentViewScaleValue) * delta) : 1
 

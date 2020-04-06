@@ -1,5 +1,5 @@
 PODS:
-  - AKSideMenu (1.4.4)
+  - AKSideMenu (1.4.6)
 
 DEPENDENCIES:
   - AKSideMenu (from `../../AKSideMenu.podspec`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: "../../AKSideMenu.podspec"
 
 SPEC CHECKSUMS:
-  AKSideMenu: b0cbee92dea51c398afa1bc3b1b6e4ee0597bb52
+  AKSideMenu: 3814b93d6503a51dc481fe24fed2d8db3c455247
 
 PODFILE CHECKSUM: af4946ce01546d15d8862d20b5be5cb193877ed5
 
-COCOAPODS: 1.8.4
+COCOAPODS: 1.8.3

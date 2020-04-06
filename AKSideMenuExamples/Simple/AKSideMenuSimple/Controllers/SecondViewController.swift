@@ -13,32 +13,39 @@ open class SecondViewController: UIViewController {
     override open func viewDidLoad() {
         super.viewDidLoad()
         self.title = "Second Controller"
-        self.view.backgroundColor = UIColor(red: 255/255.0, green: 202/255.0, blue: 101/255.0, alpha: 1.0)
-        self.navigationItem.leftBarButtonItem = UIBarButtonItem(title: "Left", style: .plain, target: self, action: #selector(self.presentLeftMenuViewController(_:)))
-        self.navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Right", style: .plain, target: self, action: #selector(self.presentRightMenuViewController(_:)))
+        self.view.backgroundColor = UIColor(red: 255 / 255.0, green: 202 / 255.0, blue: 101 / 255.0, alpha: 1.0)
+        self.navigationItem.leftBarButtonItem = UIBarButtonItem(title: "Left",
+                                                                style: .plain,
+                                                                target: self,
+                                                                action: #selector(presentLeftMenuViewController(_:)))
+        self.navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Right",
+                                                                 style: .plain,
+                                                                 target: self,
+                                                                 action: #selector(presentRightMenuViewController(_:)))
 
         let button = UIButton(type: .roundedRect)
         button.frame = CGRect(x: 0, y: 84, width: self.view.frame.size.width, height: 44)
         button.autoresizingMask = .flexibleWidth
-        button.setTitle("Push View Controller", for: UIControlState())
-        button.addTarget(self, action: #selector(SecondViewController.pushViewController(_:)), for: .touchUpInside)
+        button.setTitle("Push View Controller", for: UIControl.State())
+        button.addTarget(self, action: #selector(pushViewController(_:)), for: .touchUpInside)
         self.view.addSubview(button)
     }
 
-    @objc func pushViewController(_ sender: AnyObject) {
+    @objc
+    func pushViewController(_ sender: AnyObject) {
         let viewController = UIViewController()
         viewController.title = "Pushed Controller"
         viewController.view.backgroundColor = .white
         self.navigationController?.pushViewController(viewController, animated: true)
     }
 
-    open override func viewWillAppear(_ animated: Bool) {
+    override open func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        NSLog("SecondViewController will appear")
+        print("SecondViewController will appear")
     }
 
-    open override func viewWillDisappear(_ animated: Bool) {
+    override open func viewWillDisappear(_ animated: Bool) {
         super.viewWillDisappear(animated)
-        NSLog("SecondViewController will disappear")
+        print("SecondViewController will disappear")
     }
 }

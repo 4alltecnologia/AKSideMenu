@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0B13D1968EC18F1145BB84BA /* Pods_AKSideMenuStoryboard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A886707A406B6C6FAED0CD6E /* Pods_AKSideMenuStoryboard.framework */; };
+		D91ABEF365507A3B59B1A5DE /* Pods_AKSideMenuStoryboard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DDF71E3C33A95A8E69CD379 /* Pods_AKSideMenuStoryboard.framework */; };
 		DD10F1BC1D09999E0053EDBB /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD10F1B81D09999E0053EDBB /* FirstViewController.swift */; };
 		DD10F1BD1D09999E0053EDBB /* RightMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD10F1B91D09999E0053EDBB /* RightMenuViewController.swift */; };
 		DD10F1BE1D09999E0053EDBB /* LeftMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD10F1BA1D09999E0053EDBB /* LeftMenuViewController.swift */; };
@@ -20,9 +20,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		548B60EA46C1D17CD5F34A0C /* Pods-AKSideMenuStoryboard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AKSideMenuStoryboard.release.xcconfig"; path = "Pods/Target Support Files/Pods-AKSideMenuStoryboard/Pods-AKSideMenuStoryboard.release.xcconfig"; sourceTree = "<group>"; };
-		A886707A406B6C6FAED0CD6E /* Pods_AKSideMenuStoryboard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AKSideMenuStoryboard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		AEFB7BC2C655C5D1B45E8B16 /* Pods-AKSideMenuStoryboard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AKSideMenuStoryboard.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AKSideMenuStoryboard/Pods-AKSideMenuStoryboard.debug.xcconfig"; sourceTree = "<group>"; };
+		2C841EBC63BA4E03C29F59A5 /* Pods-AKSideMenuStoryboard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AKSideMenuStoryboard.release.xcconfig"; path = "Target Support Files/Pods-AKSideMenuStoryboard/Pods-AKSideMenuStoryboard.release.xcconfig"; sourceTree = "<group>"; };
+		5412D364BCEF3E0DA977CA0C /* Pods-AKSideMenuStoryboard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AKSideMenuStoryboard.debug.xcconfig"; path = "Target Support Files/Pods-AKSideMenuStoryboard/Pods-AKSideMenuStoryboard.debug.xcconfig"; sourceTree = "<group>"; };
+		5DDF71E3C33A95A8E69CD379 /* Pods_AKSideMenuStoryboard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AKSideMenuStoryboard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD10F1B81D09999E0053EDBB /* FirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		DD10F1B91D09999E0053EDBB /* RightMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RightMenuViewController.swift; sourceTree = "<group>"; };
 		DD10F1BA1D09999E0053EDBB /* LeftMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeftMenuViewController.swift; sourceTree = "<group>"; };
@@ -41,26 +41,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0B13D1968EC18F1145BB84BA /* Pods_AKSideMenuStoryboard.framework in Frameworks */,
+				D91ABEF365507A3B59B1A5DE /* Pods_AKSideMenuStoryboard.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1ACBE9CEFB295BB678811998 /* Pods */ = {
+		619AB1713E28CF54C5A6EFF2 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				AEFB7BC2C655C5D1B45E8B16 /* Pods-AKSideMenuStoryboard.debug.xcconfig */,
-				548B60EA46C1D17CD5F34A0C /* Pods-AKSideMenuStoryboard.release.xcconfig */,
+				5412D364BCEF3E0DA977CA0C /* Pods-AKSideMenuStoryboard.debug.xcconfig */,
+				2C841EBC63BA4E03C29F59A5 /* Pods-AKSideMenuStoryboard.release.xcconfig */,
 			);
 			name = Pods;
+			path = Pods;
 			sourceTree = "<group>";
 		};
-		C861B246950C7096EB3D6000 /* Frameworks */ = {
+		C0C33ECCDC4FEE073187479D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				A886707A406B6C6FAED0CD6E /* Pods_AKSideMenuStoryboard.framework */,
+				5DDF71E3C33A95A8E69CD379 /* Pods_AKSideMenuStoryboard.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -81,8 +82,8 @@
 			children = (
 				DDA3AEC01D09955A0085CBF3 /* AKSideMenuStoryboard */,
 				DDA3AEBF1D09955A0085CBF3 /* Products */,
-				1ACBE9CEFB295BB678811998 /* Pods */,
-				C861B246950C7096EB3D6000 /* Frameworks */,
+				619AB1713E28CF54C5A6EFF2 /* Pods */,
+				C0C33ECCDC4FEE073187479D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -115,12 +116,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DDA3AED01D09955A0085CBF3 /* Build configuration list for PBXNativeTarget "AKSideMenuStoryboard" */;
 			buildPhases = (
-				8647815295DACD8A1AE5AE70 /* [CP] Check Pods Manifest.lock */,
+				E178E051A6C7BBF35971F4D7 /* [CP] Check Pods Manifest.lock */,
 				DDA3AEBA1D09955A0085CBF3 /* Sources */,
 				DDA3AEBB1D09955A0085CBF3 /* Frameworks */,
 				DDA3AEBC1D09955A0085CBF3 /* Resources */,
-				7989D80B9BE366ACB9BE20AB /* [CP] Embed Pods Frameworks */,
-				EDACF854E79113F5F18DA64C /* [CP] Copy Pods Resources */,
+				85DDB7E84AFC5CD2CAAF6919 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -138,18 +138,18 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0900;
+				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = "AnyKey Entertainment";
 				TargetAttributes = {
 					DDA3AEBD1D09955A0085CBF3 = {
 						CreatedOnToolsVersion = 7.3.1;
-						LastSwiftMigration = 0900;
+						LastSwiftMigration = 1020;
 					};
 				};
 			};
 			buildConfigurationList = DDA3AEB91D09955A0085CBF3 /* Build configuration list for PBXProject "AKSideMenuStoryboard" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
@@ -179,13 +179,13 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		7989D80B9BE366ACB9BE20AB /* [CP] Embed Pods Frameworks */ = {
+		85DDB7E84AFC5CD2CAAF6919 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-AKSideMenuStoryboard/Pods-AKSideMenuStoryboard-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-AKSideMenuStoryboard/Pods-AKSideMenuStoryboard-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/AKSideMenu/AKSideMenu.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -194,40 +194,29 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AKSideMenuStoryboard/Pods-AKSideMenuStoryboard-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AKSideMenuStoryboard/Pods-AKSideMenuStoryboard-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		8647815295DACD8A1AE5AE70 /* [CP] Check Pods Manifest.lock */ = {
+		E178E051A6C7BBF35971F4D7 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			inputFileListPaths = (
 			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-AKSideMenuStoryboard-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		EDACF854E79113F5F18DA64C /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AKSideMenuStoryboard/Pods-AKSideMenuStoryboard-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -272,6 +261,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -281,12 +271,14 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -326,6 +318,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -335,12 +328,14 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -372,29 +367,27 @@
 		};
 		DDA3AED11D09955A0085CBF3 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AEFB7BC2C655C5D1B45E8B16 /* Pods-AKSideMenuStoryboard.debug.xcconfig */;
+			baseConfigurationReference = 5412D364BCEF3E0DA977CA0C /* Pods-AKSideMenuStoryboard.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = AKSideMenuStoryboard/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.anykey.AKSideMenuStoryboard;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
 		DDA3AED21D09955A0085CBF3 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 548B60EA46C1D17CD5F34A0C /* Pods-AKSideMenuStoryboard.release.xcconfig */;
+			baseConfigurationReference = 2C841EBC63BA4E03C29F59A5 /* Pods-AKSideMenuStoryboard.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = AKSideMenuStoryboard/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.anykey.AKSideMenuStoryboard;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};

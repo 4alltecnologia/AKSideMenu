@@ -13,8 +13,14 @@ open class FirstViewController: UIViewController {
     override open func viewDidLoad() {
         super.viewDidLoad()
         self.title = "First Controller"
-        self.navigationItem.leftBarButtonItem = UIBarButtonItem(title: "Left", style: .plain, target: self, action: #selector(self.presentLeftMenuViewController(_:)))
-        self.navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Right", style: .plain, target: self, action: #selector(self.presentRightMenuViewController(_:)))
+        self.navigationItem.leftBarButtonItem = UIBarButtonItem(title: "Left",
+                                                                style: .plain,
+                                                                target: self,
+                                                                action: #selector(presentLeftMenuViewController(_:)))
+        self.navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Right",
+                                                                 style: .plain,
+                                                                 target: self,
+                                                                 action: #selector(presentRightMenuViewController(_:)))
 
         let imageView = UIImageView(frame: self.view.bounds)
         imageView.contentMode = .scaleAspectFill
@@ -23,13 +29,13 @@ open class FirstViewController: UIViewController {
         self.view.addSubview(imageView)
     }
 
-    open override func viewWillAppear(_ animated: Bool) {
+    override open func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        NSLog("FirstViewController will appear")
+        print("FirstViewController will appear")
     }
 
-    open override func viewWillDisappear(_ animated: Bool) {
+    override open func viewWillDisappear(_ animated: Bool) {
         super.viewWillDisappear(animated)
-        NSLog("FirstViewController will disappear")
+        print("FirstViewController will disappear")
     }
 }

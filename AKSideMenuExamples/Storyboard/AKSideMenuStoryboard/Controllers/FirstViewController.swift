@@ -14,13 +14,13 @@ public class FirstViewController: UIViewController {
         super.viewDidLoad()
     }
 
-    public override func viewWillAppear(_ animated: Bool) {
+    override public func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        NSLog("FirstViewController will appear")
+        print("FirstViewController will appear")
     }
 
-    public override func viewWillDisappear(_ animated: Bool) {
+    override public func viewWillDisappear(_ animated: Bool) {
         super.viewWillDisappear(animated)
-        NSLog("FirstViewController will disappear")
+        print("FirstViewController will disappear")
     }
 }
